@@ -1,0 +1,56 @@
+CRITICAL - 2023-11-16 17:01:02 --> Invalid file: "libros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('libros', [], true)
+ 3 APPPATH\Controllers\Home.php(17): view('libros')
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 17:02:22 --> Invalid file: "libros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('libros', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('libros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 17:02:23 --> Invalid file: "libros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('libros', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('libros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 17:02:23 --> Invalid file: "libros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('libros', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('libros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 17:02:23 --> Invalid file: "libros.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('libros.php')
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('libros', [], true)
+ 3 APPPATH\Controllers\Home.php(18): view('libros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-16 17:23:49 --> Undefined variable $key
+in APPPATH\Views\usuarios.php on line 21.
+ 1 APPPATH\Views\usuarios.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $key', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\usuarios.php', 21)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\usuarios.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('usuarios', [], true)
+ 5 APPPATH\Controllers\Home.php(18): view('usuarios', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->usuarios()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

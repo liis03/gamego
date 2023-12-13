@@ -1,0 +1,131 @@
+INFO - 2023-11-20 14:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 14:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 14:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:36:25 --> Call to undefined method App\Models\Auth_model::getRole
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Auth.php(83): CodeIgniter\Model->__call('getRole', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->login()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:46:48 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 16:47:27 --> Object of type CodeIgniter\Session\Session is not callable
+in APPPATH\Controllers\Auth.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Auth->login()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 16:50:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 16:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:15:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 17:15:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 18:19:15 --> Undefined variable $articulo
+in APPPATH\Views\videojuegos.php on line 62.
+ 1 APPPATH\Views\videojuegos.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulo', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 62)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\User.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 18:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 18:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 18:20:24 --> Undefined variable $articulo
+in APPPATH\Views\videojuegos.php on line 20.
+ 1 APPPATH\Views\videojuegos.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $articulo', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\User.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:28:20 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 18.
+ 1 APPPATH\Views\videojuegos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\User.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:35:09 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 18.
+ 1 APPPATH\Views\videojuegos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\User.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\User->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:36:09 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 18.
+ 1 APPPATH\Views\videojuegos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\VideojuegosController.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\videojuegosController->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\videojuegosController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 18:36:10 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 18.
+ 1 APPPATH\Views\videojuegos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\VideojuegosController.php(32): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\videojuegosController->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\videojuegosController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-11-20 19:06:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-20 19:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-20 19:09:20 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 19.
+ 1 APPPATH\Views\videojuegos.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(33): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductosController->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-11-20 19:09:21 --> Undefined variable $videojuegos
+in APPPATH\Views\videojuegos.php on line 19.
+ 1 APPPATH\Views\videojuegos.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $videojuegos', 'C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\game_go\\app\\Views\\videojuegos.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('videojuegos', [], true)
+ 5 APPPATH\Controllers\ProductosController.php(33): view('videojuegos')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\ProductosController->videojuegos()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductosController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
